@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+Link para o projeto na vercel:
+https://pokedex-eosin-two.vercel.app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Descrição:** Este é um projeto básico de uma Pokédex que utiliza uma API pública de Pokémon para fornecer informações sobre eles. Os usuários poderão realizar as seguintes ações:
 
-## Available Scripts
+1. **Pesquisar Pokémon:** Os usuários podem inserir o nome ou o número do Pokémon na barra de pesquisa e clicar em um botão para obter informações sobre esse Pokémon específico.
 
-In the project directory, you can run:
+2. **Exibir Detalhes do Pokémon:** Após a pesquisa, as informações do Pokémon, como nome, número e imagem, serão exibidas na tela.
 
-### `npm start`
+3. **Navegação entre Pokémon:** Os usuários podem navegar entre diferentes Pokémon, seja por meio de botões de navegação anterior/próximo ou por meio de uma lista de Pokémon disponíveis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. **Design Simples e Atraente:** O aplicativo terá um design simples, com imagens dos Pokémon e cores relacionadas ao tipo do Pokémon 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **API de Pokémon:** Utilize uma API pública de Pokémon, como a "PokeAPI" (https://pokeapi.co/), para obter dados sobre os Pokémon.
 
-### `npm test`
+- **Interface de Usuário (UI):** Você pode criar uma interface de usuário simples usando HTML/CSS/JavaScript (para aplicativos da web) ou XML/Layouts (para aplicativos móveis Android).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Bibliotecas/Frameworks:** Considere o uso de bibliotecas ou frameworks como React (para aplicativos da web) ou Android Studio (para aplicativos móveis Android).
 
-### `npm run build`
+- **Armazenamento de Dados (opcional):** Se desejar, pode adicionar funcionalidades como favoritos ou histórico de pesquisa, que exigiriam armazenamento local.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Fluxo do Aplicativo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. O usuário inicia o aplicativo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Uma interface simples é exibida, incluindo a barra de pesquisa e botões de navegação.
 
-### `npm run eject`
+3. O usuário insere o nome ou número do Pokémon na barra de pesquisa e clica em "Pesquisar".
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. O aplicativo faz uma solicitação à API de Pokémon para obter informações sobre o Pokémon desejado.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. As informações do Pokémon (nome, número, tipo, imagem e descrição) são exibidas na tela.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. O usuário pode navegar entre diferentes Pokémon, seja por meio de botões de navegação anterior/próximo ou por meio do buscador.
