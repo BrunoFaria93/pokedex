@@ -59,11 +59,12 @@ const Pokedex = () => {
       e.preventDefault();
     }
   };
+
   return (
-    <>
-      <div className="inline-block mt-[15%] p-[15px] relative">
+    <main className="framerMotion md:flex md:justify-center md:items-center md:h-screen">
+      <div className="inline-block mt-[15%] md:mt-0 p-[15px] relative md:p-0 md:py-10">
         <img
-          className="w-full max-w-[425px]"
+          className="w-full max-w-[425px] md:h-[500px]"
           src={require("../assets/images/pokedex.png")}
           alt="pokedex"
         />
@@ -128,7 +129,7 @@ const Pokedex = () => {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 };
 

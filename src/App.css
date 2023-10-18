@@ -75,6 +75,18 @@ body {
   gap: 20px;
 }
 
+@media screen and (min-width: 776px) {
+  .buttons {
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+  }
+}
+
 .button {
   width: 50%;
   padding: 4%;
@@ -90,4 +102,20 @@ body {
 .button:active {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
+}
+
+@keyframes framerMotion {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.framerMotion {
+  animation: framerMotion 0.5s;
 }

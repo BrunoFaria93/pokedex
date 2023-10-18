@@ -24,12 +24,12 @@ function App() {
       <div>
         {isSound ? (
           <FaVolumeUp
-            className="absolute w-10 h-10 right-5 top-5 text-white z-50"
+            className="absolute w-10 h-10 right-5 top-5 text-white z-50 cursor-pointer"
             onClick={() => audioHandler()}
           />
         ) : (
           <FaVolumeOff
-            className="absolute w-10 h-10 right-5 top-5 text-white z-50"
+            className="absolute w-10 h-10 right-5 top-5 text-white z-50 cursor-pointer"
             onClick={() => audioHandler()}
           />
         )}
