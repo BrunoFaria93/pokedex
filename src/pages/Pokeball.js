@@ -8,11 +8,13 @@ const PokePage = () => {
 
   return (
     <div className="h-screen w-full flex flex-col justify-center items-center gap-5">
-      <h1 className="font-bold text-3xl text-white">Clique na Pokéball</h1>
+      <h1 className="font-bold text-3xl text-white md:text-[60px]">
+        Clique na Pokéball
+      </h1>
       <Link to="./pokedex">
         <img
           onClick={() => playAudioPokeball()}
-          className="w-44 h-44 bounceImg"
+          className="w-44 h-44 bounceImg md:w-60 md:h-60"
           src={require("../assets/images/pokeball.png")}
           alt="pokeball"
         />
